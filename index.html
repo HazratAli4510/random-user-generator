@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="profile-image">
+                <img>
+                <div id="loader" class="loader"></div>
+            </div>
+        </div>
+        <div class="name">
+            <p id="title" class="title">My name is:</p>
+            <h1></h1>
+        </div>
+        <div class="icons">
+            <i id="user" class="far fa-user"></i>
+            <i id="email" class="far fa-envelope"></i>
+            <i id="birthday" class="fal fa-calendar-day"></i>
+            <i id="address" class="far fa-map-marked-alt"></i>
+            <i id="phone" class="fal fa-phone-alt"></i>
+            <i id="password" class="far fa-lock"></i>
+        </div>
+        <div class="button">
+            <button onclick="loadData()">Load new</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
